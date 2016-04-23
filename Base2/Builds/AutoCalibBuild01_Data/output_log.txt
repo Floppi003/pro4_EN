@@ -1,0 +1,109 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 650M (ID=0xfd5)
+    Vendor:   NVIDIA
+    VRAM:     971 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+- Completed reload, in  0.042 seconds
+desktop: 1680x1050 60Hz; virtual: 1680x1050 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v04\Base2\Builds\AutoCalibBuild01_Data\Managed\System.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1040 -> priority: 1 
+  Thread -> id: 115c -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.586588 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 0.399106 ms (FindLiveObjects: 0.120872 ms CreateObjectMapping: 0.107188 ms MarkObjects: 0.101106 ms  DeleteObjects: 0.013303 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.415830 ms
+EyePositionScript: Awake()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+EyePositionScript: OnEnable()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 0.555327 ms (FindLiveObjects: 0.133415 ms CreateObjectMapping: 0.025086 ms MarkObjects: 0.374779 ms  DeleteObjects: 0.021285 ms)
+
+EyeX is running.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+EyePositionScript: OnDisable()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+UnloadTime: 5.022657 ms
+
+Unloading 135 unused Assets to reduce memory usage. Loaded Objects now: 409.
+Total: 0.572432 ms (FindLiveObjects: 0.063476 ms CreateObjectMapping: 0.031928 ms MarkObjects: 0.252007 ms  DeleteObjects: 0.223499 ms)
+
+Waiting for calibration to start
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Waiting for calibration to finish
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Calibration finished. Bring back focus to application
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.328787 ms
+EyePositionScript: Awake()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+EyePositionScript: OnEnable()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 13646.
+Total: 1.981847 ms (FindLiveObjects: 0.540884 ms CreateObjectMapping: 0.123532 ms MarkObjects: 1.290063 ms  DeleteObjects: 0.026607 ms)
+
+queue audio clip called
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Playing next shot out of queue: 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+EyeX is shutting down.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+EyePositionScript: OnDisable()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+

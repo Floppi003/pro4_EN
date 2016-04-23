@@ -1,0 +1,144 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 650M (ID=0xfd5)
+    Vendor:   NVIDIA
+    VRAM:     971 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+- Completed reload, in  0.050 seconds
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Floppi\Desktop\FH_Semester_04\pro4_v03\Base2\Builds\PFUDOR_Data\Managed\System.dll (this message is harmless)
+IndexOutOfRangeException: Array index is out of range.
+  at AudioManager.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 10b8 -> priority: 1 
+  Thread -> id: c18 -> priority: 1 
+Button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+My name is 1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Button pressed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+My name is 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Player detected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+OnTriggerEnter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Player detected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+OnTriggerEnter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.859985 ms
+IndexOutOfRangeException: Array index is out of range.
+  at AudioManager.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2573.
+Total: 0.648462 ms (FindLiveObjects: 0.153943 ms CreateObjectMapping: 0.053214 ms MarkObjects: 0.372124 ms  DeleteObjects: 0.068419 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.168252 ms
+IndexOutOfRangeException: Array index is out of range.
+  at AudioManager.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2573.
+Total: 0.650362 ms (FindLiveObjects: 0.164206 ms CreateObjectMapping: 0.039911 ms MarkObjects: 0.430661 ms  DeleteObjects: 0.014444 ms)
+
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/.\Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/.\Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/.\libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/.\Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/.\Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/.\libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Floppi/Desktop/FH_Semester_04/pro4_v03/Base2/Builds/PFUDOR_Data/Mono/libTobii.EyeX.Client.dll
+EyeX initialization failed because the client access library 'Tobii.EyeX.Client.dll' could not be loaded. Please make sure that it is present in the root directory of the game/application.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.PauseMenu () [0x00000] in <filename unknown>:0 
+  at GameManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.PauseMenu () [0x00000] in <filename unknown>:0 
+  at GameManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+OnTriggerEnter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BridgeCollider.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GameManager.PauseMenu () [0x00000] in <filename unknown>:0 
+  at GameManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
