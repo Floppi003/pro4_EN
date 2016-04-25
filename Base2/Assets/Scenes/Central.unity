@@ -7420,6 +7420,10 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: .707106709
       objectReference: {fileID: 0}
+    - target: {fileID: 11445938, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: m_Text
+      value: Still playing? LUCID will reset soon.
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11452524, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
     - {fileID: 11429726, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
