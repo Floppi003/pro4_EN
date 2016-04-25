@@ -20,7 +20,7 @@ public class CameraRaycast : MonoBehaviour {
 		if (Physics.Raycast (cam.transform.position, cam.gameObject.transform.forward, out interactionRaycastHit, 3)) {
 		
 			if (interactionRaycastHit.collider.gameObject.tag == "Interaction") {
-				loadPrompt = "[F]  Knopf drücken";
+				loadPrompt = "[F]  Press Button";
 				showHint = true;
 				interactionRaycastHit.collider.gameObject.GetComponent<InteractionButton>().ButtonPressed();
 
@@ -42,19 +42,19 @@ public class CameraRaycast : MonoBehaviour {
 				}
 
 			} else if(interactionRaycastHit.collider.gameObject.tag == "ColorButton") { 	// Color Buttons
-				loadPrompt = "[F]  Knopf drücken";
+				loadPrompt = "[F]  Press Button";
 				showHint = true;
 				if(Input.GetButtonDown ("ButtonPressed")) {
 					interactionRaycastHit.collider.gameObject.GetComponent<ColorButton>().push();
 				}
 			} else if(interactionRaycastHit.collider.gameObject.tag == "AudioButton") { 	// Color Buttons
-				loadPrompt = "[F]  Knopf drücken";
+				loadPrompt = "[F]  Press Button";
 				showHint = true;
 				if(Input.GetButtonDown ("ButtonPressed")) {
 					interactionRaycastHit.collider.gameObject.GetComponent<AudioButton>().push();
 				}
 			} else if(interactionRaycastHit.collider.gameObject.tag == "AudioColorButton") { 	// Color Buttons
-				loadPrompt = "[F]  Knopf drücken";
+				loadPrompt = "[F]  Press Button";
 				showHint = true;
 				if(Input.GetButtonDown ("ButtonPressed")) {
 					interactionRaycastHit.collider.gameObject.GetComponent<AudioColorButton>().push();
