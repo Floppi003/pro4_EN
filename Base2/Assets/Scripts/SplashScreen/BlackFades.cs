@@ -28,7 +28,9 @@ public class BlackFades : MonoBehaviour
 	{
 		DontDestroyOnLoad(this);
 		m_Instance = this;
-		m_Material = new Material("Shader \"Plane/No zTest\" { SubShader { Pass { Blend SrcAlpha OneMinusSrcAlpha ZWrite Off Cull Off Fog { Mode Off } BindChannels { Bind \"Color\",color } } } }");
+		Shader blendShader = Shader.Find ("Plane/No zTest");
+		m_Material = new Material (blendShader);
+		//m_Material = new Material("Shader \"Plane/No zTest\" { SubShader { Pass { Blend SrcAlpha OneMinusSrcAlpha ZWrite Off Cull Off Fog { Mode Off } BindChannels { Bind \"Color\",color } } } }");
 	}
 	
 	private void DrawQuad(Color aColor,float aAlpha)
