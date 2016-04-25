@@ -5,6 +5,7 @@ public class BlackFades : MonoBehaviour
 {
 	private static BlackFades m_Instance = null;
 	private Material m_Material = null;
+	private Material noZTest = Resources.Load("noZTest", typeof(Material)) as Material;
 	private bool m_Fading = false;
 	
 	private static BlackFades Instance
@@ -28,7 +29,7 @@ public class BlackFades : MonoBehaviour
 	{
 		DontDestroyOnLoad(this);
 		m_Instance = this;
-		Shader blendShader = Shader.Find ("Plane/No zTest");
+		Shader blendShader = noZTest.shader;
 		m_Material = new Material (blendShader);
 		//m_Material = new Material("Shader \"Plane/No zTest\" { SubShader { Pass { Blend SrcAlpha OneMinusSrcAlpha ZWrite Off Cull Off Fog { Mode Off } BindChannels { Bind \"Color\",color } } } }");
 	}
