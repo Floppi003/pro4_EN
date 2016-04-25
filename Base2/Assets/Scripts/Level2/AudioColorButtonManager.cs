@@ -53,6 +53,7 @@ public class AudioColorButtonManager : MonoBehaviour {
 	}
 
 	public void hitButton(Material mat, AudioColorButton obj) {
+		print ("button hit");
 		if (!this.didStartCounterHitCounting) {return;}
 
 		counterHit++;

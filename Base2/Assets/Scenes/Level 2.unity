@@ -7470,35 +7470,35 @@ Prefab:
       objectReference: {fileID: 8300000, guid: c4195fdd7a0350c41ba86f3b4c8697f9, type: 3}
     - target: {fileID: 455906, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 32.3400002
+      value: 32.34
       objectReference: {fileID: 0}
     - target: {fileID: 455906, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -32.5699997
+      value: -32.57
       objectReference: {fileID: 0}
     - target: {fileID: 455906, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .707106829
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 455906, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalRotation.w
-      value: .707106709
+      value: 0.7071067
       objectReference: {fileID: 0}
     - target: {fileID: 455906, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.74000001
+      value: 1.74
       objectReference: {fileID: 0}
     - target: {fileID: 413452, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.81999993
+      value: 3.82
       objectReference: {fileID: 0}
     - target: {fileID: 413452, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -66.5500031
+      value: -66.55
       objectReference: {fileID: 0}
     - target: {fileID: 413452, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 17.9200001
+      value: 17.92
       objectReference: {fileID: 0}
     - target: {fileID: 22408696, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_AnchorMax.x
@@ -7563,6 +7563,14 @@ Prefab:
     - target: {fileID: 11458870, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
       propertyPath: m_Text
       value: Exit
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203620, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203620, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11452524, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
