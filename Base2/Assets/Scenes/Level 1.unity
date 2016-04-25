@@ -25431,6 +25431,46 @@ Prefab:
       propertyPath: m_Text
       value: Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 8203620, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8203620, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243054, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243054, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237158, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237158, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284584, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8284584, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452524, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: timeTillWakeupSoundStarts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11452524, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
+      propertyPath: timeTillFirstDoorOpens
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 86925217ef00c26489bfec73a81d6a13, type: 2}
   m_IsPrefabParent: 0

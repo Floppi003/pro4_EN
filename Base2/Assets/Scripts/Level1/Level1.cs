@@ -26,6 +26,7 @@ public class Level1 : MonoBehaviour {
 	private bool wallTriggerStarted;
 	private bool waitForEyeClose;
 	private bool wakeupSoundPlayed;
+	private bool wakeupSoundEffectPlayed = false;
 	private bool wallsVisible; // default is false, when user closed eyes for a certain amount of time it will be true 
 	private int wallRiddleHintsPlayed; // amount of hint audio clips that have been played so far
 
@@ -140,7 +141,11 @@ public class Level1 : MonoBehaviour {
 		// play the wakeup sound
 		if (timeTillWakeupSoundStarts < elapsedTime && wakeupSoundPlayed == false) {
 			this.playWakeupSound();
-			AudioManager.instance.playSoundEffect(this.audioFiles.wakeupSound);
+			//AudioManager.instance.playSoundEffect(this.audioFiles.wakeupSound);
+		}
+
+		if ((timeTillWakeupSoundStarts + 2.5) < elapsedTime && wakeupSoundEffectPlayed == false) {
+			this.playWakeupSoundEffect ();
 		}
 		
 		// open the door if the time is right!
@@ -184,6 +189,13 @@ public class Level1 : MonoBehaviour {
 
 		wakeupSoundPlayed = true;
 		AudioManager.instance.queueAudioClip(audioFiles.getWakeup_Stage01_AudioClip());
+	}
+
+	private void playWakeupSoundEffect() {
+		if (this.wakeupSoundEffectPlayed == false) {
+			AudioManager.instance.playSoundEffect (this.audioFiles.wakeupSound);
+		}
+		wakeupSoundEffectPlayed = true;
 	}
 	
 	// opens the first door in the first room where you wake up
