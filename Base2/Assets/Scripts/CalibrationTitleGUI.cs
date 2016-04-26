@@ -25,10 +25,11 @@ public class CalibrationTitleGUI : MonoBehaviour
     private bool _originalRunInBackgroundState;
 
 	private float timeCounter = 0.0f;
-	private float timeCalibrationStarts = 9.0f;
+	private float timeCalibrationStarts = 5.0f;
 	private bool didStartCalibration = false;
 
 	private GameObject textGO;
+	private GameObject textGOSkip;
 
     private enum WaitingState
     {
@@ -49,6 +50,7 @@ public class CalibrationTitleGUI : MonoBehaviour
 		didStartCalibration = false;
 
 		this.textGO = GameObject.Find ("Text");
+		this.textGOSkip = GameObject.Find ("Skip");
     }
 
     void OnDisable()
@@ -84,7 +86,8 @@ public class CalibrationTitleGUI : MonoBehaviour
 		if (timeCounter > this.timeCalibrationStarts && didStartCalibration == false) {
 			didStartCalibration = true;
 
-			this.textGO.transform.position = new Vector3(-10000, 0, 0);
+			Destroy (textGO);
+			Destroy (textGOSkip);
 
 			StartWaitingForCalibration();
 			_host.LaunchRecalibration();
@@ -104,6 +107,10 @@ public class CalibrationTitleGUI : MonoBehaviour
 
             StopWaitingForCalibration();
         }
+
+		if (Input.GetKeyDown (KeyCode.E)) {
+			AutoFade.LoadLevel("Level 1" , 1, 1, Color.black);
+		}
     }
 
     private void StartWaitingForCalibration()
