@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Cheat(){
-		if ((Input.GetButton ("ButtonPressed")) && (Input.GetButton ("Jump"))) {
+		if ((Input.GetButton ("ButtonPressed")) && (Input.GetKeyDown(KeyCode.J))) {
 			if(Application.loadedLevelName != "Central" && cheatOnce){
 				CompleteLevel();
 				cheatOnce = false;

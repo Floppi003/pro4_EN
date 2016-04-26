@@ -25,11 +25,14 @@ public class CalibrationTitleGUI : MonoBehaviour
     private bool _originalRunInBackgroundState;
 
 	private float timeCounter = 0.0f;
-	private float timeCalibrationStarts = 5.0f;
+	public float timeCalibrationStarts = 11.0f;
 	private bool didStartCalibration = false;
+	private int counter = 0;
+	private float startingTime = 0;
 
 	private GameObject textGO;
 	private GameObject textGOSkip;
+	private GameObject textCountdown;
 
     private enum WaitingState
     {
@@ -48,9 +51,11 @@ public class CalibrationTitleGUI : MonoBehaviour
 		// switch to external calibration tool
 		timeCounter = 0.0f;
 		didStartCalibration = false;
+		startingTime = Time.deltaTime;
 
 		this.textGO = GameObject.Find ("Text");
 		this.textGOSkip = GameObject.Find ("Skip");
+		this.textCountdown = GameObject.Find ("Countdown");
     }
 
     void OnDisable()
@@ -81,16 +86,25 @@ public class CalibrationTitleGUI : MonoBehaviour
 
     void Update()
     {
+		if (timeCounter - startingTime > counter && counter < timeCalibrationStarts) {
+			textCountdown.GetComponent<UnityEngine.UI.Text> ().text = (timeCalibrationStarts - counter - 1).ToString();
+			counter++;
+		}
+
 		timeCounter += Time.deltaTime;
 
 		if (timeCounter > this.timeCalibrationStarts && didStartCalibration == false) {
 			didStartCalibration = true;
 
-			Destroy (textGO);
+			textGO.GetComponent<UnityEngine.UI.Text> ().text = "";
 			Destroy (textGOSkip);
+			Destroy (textCountdown);
 
 			StartWaitingForCalibration();
 			_host.LaunchRecalibration();
+
+			textGO.GetComponent<UnityEngine.UI.Text> ().text = "If you see this screen, Tobii EyeX could not be found.\n\nIt is recommended to install Tobii EyeX, otherwise you cannot play the game proberly.\n\nPress E to continue or Space to get back into the menu central.";
+			print ("doing");
 		}
 
         if (_waitingState == WaitingState.WaitingForCalibrationToStart
@@ -111,6 +125,12 @@ public class CalibrationTitleGUI : MonoBehaviour
 		if (Input.GetKeyDown (KeyCode.E)) {
 			AutoFade.LoadLevel("Level 1" , 1, 1, Color.black);
 		}
+
+		if (timeCounter > this.timeCalibrationStarts && Input.GetKeyDown (KeyCode.Space)) {
+			AutoFade.LoadLevel("Central" , 1, 1, Color.black);
+		}
+
+
     }
 
     private void StartWaitingForCalibration()
